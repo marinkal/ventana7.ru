@@ -1,0 +1,5 @@
+{
+    "require": {
+        "nulpunkt/yesql-php": "^1"
+    }
+}

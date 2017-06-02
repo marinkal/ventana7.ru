@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3104ce70f59d064406fb07fffd1ab2c8",
+    "packages": [
+        {
+            "name": "nulpunkt/yesql-php",
+            "version": "v1.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nulpunkt/yesql-php.git",
+                "reference": "7d01bc60fa76afea08a78ae3f212cc73a0a79b66"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nulpunkt/yesql-php/zipball/7d01bc60fa76afea08a78ae3f212cc73a0a79b66",
+                "reference": "7d01bc60fa76afea08a78ae3f212cc73a0a79b66",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/dbunit": "~2.0",
+                "phpunit/phpunit": "~5.2",
+                "squizlabs/php_codesniffer": "~2.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jesper Skovgaard Nielsen",
+                    "email": "nulpunkt@gmail.com"
+                }
+            ],
+            "description": "A clone of the wonderful yesql clojure library, for php",
+            "time": "2016-07-14T08:50:47+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
